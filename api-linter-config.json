@@ -1,0 +1,14 @@
+[
+    {
+        "included_paths": ["**/*.proto"],
+        "disabled_rules": [
+            "core::0133::response-lro",
+            "core::0134::response-lro",
+            "core::0151::response-unary",
+            "core::0152::response-message-name",
+            "core::0164::response-lro",
+            "core::0165::response-message-name",
+            "core::0135::response-lro"
+        ]
+    }
+]

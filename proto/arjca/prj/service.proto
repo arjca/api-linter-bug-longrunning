@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package arjca.prj.v1;
+
+import "google/api/annotations.proto";
+import "google/longrunning/operations.proto";
+
+service AwesomeService {
+  rpc Process(ProcessRequest) returns (google.longrunning.Operation);
+}
+
+message ProcessRequest {
+}
